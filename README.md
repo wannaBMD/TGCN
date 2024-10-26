@@ -7,4 +7,14 @@ The multi-omics data and gene association networks used in TGCN can be found in 
 './data/pan/mut_features_miRNA_sub_du.txt': Among the 51-dimensional vector of multi-omics data, 48 dimensions are the same as in EMOGI, consisting of gene mutation rates, differential DNA methylation rates, and differential expression rates, which span across 16 different cancer types. We adopt the same way as HWC to calculate the differential expression scores of miRNAs associated with genes.<br>
 './data/pan/string_850/', './data/pan/CPDB/' and './data/pan/BioPlex/': The folder contains the pan-cancer data required by TGCN for gene sets from different PPI sources.<br>
 './data/Specific cancer/': The folder contains the specific cancer types data required by TGCN for gene sets from different PPI sources.<br>
-All data is used as input or output for programs in './Preprocess_data_required/'.<br>
+All data are used as input or output for programs in './Preprocess_data_required/'.<br>
+## Requirements
+- Python 3.8<br>
+- PyTorch 1.12.1+cu113<br>
+- PyTorch Geometric 2.5.2<br>
+- dgl 1.1.1+cu113<br>
+- jupyter notebook 7.2.1<br>
+- ipykernel 6.29.5<br>
+- ipython 8.12.3<br>
+- numpy 1.24.4<br>
+- pandas 2.0.3<br>
