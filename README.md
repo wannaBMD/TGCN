@@ -1,4 +1,4 @@
-# TGCN:a deep learning framework for improving cancer driver gene identification based on Transformer and graph convolutional network
+# TGCN: a deep learning framework for improving cancer driver gene identification based on Transformer and graph convolutional network
 ## Abstract
 We propose a method called TGCN, which is based on the integration of Transformer and graph convolutional network (GCN), aiming to improve cancer driver gene identification. Firstly, we compose multivariate feature matrices of genes from multi-omics data and multi-dimensional positional embedding derived from the gene association networks. Secondly, the multivariate feature matrices are fed into a Transformer module to learn the feature representations of genes. Finally, we utilize a Chebyshev GCN classifier to yield the identification results of cancer driver genes based on the feature representations.<br>
 ![Image text](https://github.com/wannaBMD/TGCN/blob/main/image/Figure1.jpg)
