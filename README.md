@@ -4,8 +4,8 @@ We propose a method called TGCN, which is based on the integration of Transforme
 ![Image text](https://github.com/wannaBMD/TGCN/blob/main/image/Figure1.jpg)
 ## Data
 The multi-omics data and gene association networks used in TGCN can be found in the './data/' folder:<br>
-'./data/pan/mut_features_miRNA_sub_du.txt': Among the 51-dimensional vector of multi-omics data, 48 dimensions are the same as in EMOGI, consisting of gene mutation rates, differential DNA methylation rates, and differential expression rates, which span across 16 different cancer types. We adopt the same way as HWC to calculate the differential expression scores of miRNAs associated with genes.<br>
-'./data/pan/string_850/', './data/pan/CPDB/' and './data/pan/BioPlex/': The folder contains the pan-cancer data required by TGCN for gene sets from different PPI sources.<br>
+'./data/pan/mut_features_miRNA_sub_du.txt': The 51-dimensional vector of multi-omics data.<br>
+'./data/pan/': The folder contains the pan-cancer data required by TGCN for gene sets from different PPI sources.<br>
 './data/Specific cancer/': The folder contains the specific cancer types data required by TGCN for gene sets from different PPI sources.<br>
 All data are used as input or output for programs in './Preprocess_data_required/'.<br>
 ## Requirements
@@ -18,3 +18,8 @@ All data are used as input or output for programs in './Preprocess_data_required
 - ipython 8.12.3<br>
 - numpy 1.24.4<br>
 - pandas 2.0.3<br>
+## Usage
+If you want to regenerate the data files required for TGCN to identify cancer driver genes, please run the programs in the './Preprocess_data_required/' folder.<br>
+Run the programs in the './TGCN_identification/' folder to identify driver genes for pan-cancer or single-type cancers, to view the performance on independent test sets, or to predict novel potential cancer driver genes using TGCN.<br>
+Run the programs in the './Ablation experiments/' folder to view the results of ablation experiments.<br>
+Please pay attention to the name differences of files from different PPI sources when running the program.<br>
