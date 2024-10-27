@@ -20,6 +20,6 @@ All data are used as input or output for programs in './Preprocess_data_required
 - pandas 2.0.3<br>
 ## Usage
 If you want to regenerate the data files required for TGCN to identify cancer driver genes, please run the programs in the './Preprocess_data_required/' folder.<br>
-Run the programs in the './TGCN_identification/' folder to identify driver genes for pan-cancer or single-type cancers, to view the performance on independent test sets, or to predict novel potential cancer driver genes using TGCN.<br>
+Run the programs in the './TGCN_identification/' folder to view TGCN's performance of identifying driver genes for pan-cancer or single-type cancers, to view the performance on independent test sets, or to predict novel potential cancer driver genes using TGCN.<br>
 Run the programs in the './Ablation experiments/' folder to view the results of ablation experiments.<br>
 Please pay attention to the name differences of files from different PPI sources when running the program.<br>
