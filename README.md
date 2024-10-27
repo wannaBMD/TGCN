@@ -8,7 +8,7 @@ The multi-omics data and gene association networks used in TGCN can be found in 
 './data/pan/': The folder contains the pan-cancer data required by TGCN for gene sets from different PPI sources.<br>
 './data/Specific cancer/': The folder contains the specific cancer types data required by TGCN for gene sets from different PPI sources.<br>
 All data are used as input or output for programs in './Preprocess_data_required/'.<br>
-Files with a file extension of. rar need to be decompressed before use.<br>
+Files with a file extension of .rar need to be decompressed before use.<br>
 ## Requirements
 - Python 3.8<br>
 - PyTorch 1.12.1+cu113<br>
